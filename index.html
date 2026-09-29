@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>เว็บไซต์แนะนำโรงเรียนนวมินทราชูทิศ มัชฌิม</title>
+      <style>
+        /*พื้นหลังและอักษรหน้าเว็บ*/
+        body{
+            background-image: url(sky.jpg);
+            margin: 0;
+            padding: 0;
+            font-family: 'Sarabun', Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 1000px; 
+            width: 100%;
+            margin: 0 auto;   
+            background-color: #000099; 
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+        }
+
+        .header-banner img {
+
+            width: 100%;      
+            display: block;
+        }
+
+        .wrapper {
+            display: flex;   
+            background-color: #000099;
+            padding: 10px;   
+            gap: 15px;       
+        }
+
+        .sidebar-left {
+            flex: 2;           
+        }
+        .sidebar-left .title {
+            background-color: #dfbe37;
+            color: #000099;
+            text-align: center;
+            padding: 8px;
+            margin: 0;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .sidebar-left ul {
+            list-style: none;
+            padding: 0;
+            margin: 5px 0 0 0;
+        }
+        .sidebar-left li {
+            background-color: #0044cc; 
+            margin-bottom: 2px;       
+        }
+        .sidebar-left li a {
+            color: white;
+            text-decoration: none; 
+            display: block;
+            padding: 8px 12px;
+            font-size: 13px;
+        }
+        
+        .sidebar-left li a:hover   {
+          background-color: #dfbe37;
+            color: #000099;
+        }
+
+        .main-content {
+            flex: 5;          
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .main-content .title-bar {
+            background-color: #dfbe37;
+            color: #000099;
+            padding: 5px 15px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .online-box {
+            background-color: #ffffff;
+            border: 4px solid #dfbe37; 
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .online-box h2 {
+            color: #d60000; 
+            margin: 0 0 10px 0;
+            font-size: 24px;
+        }
+
+        .online-image-placeholder {
+            width: 100%;
+            height: auto;
+        }
+
+        .sidebar-right {
+            flex: 2;           
+            background-color: #ffffff;
+            border-radius: 4px;
+            padding: 2px;      
+            align-self: flex-start; 
+        }
+        
+        .sidebar-right .title {
+            background-color: #dfbe37;
+            color: #000099;
+            text-align: center;
+            padding: 8px;
+            margin: 0;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .director-info {
+            padding: 15px 10px;
+            text-align: center;
+        }
+        .director-info img {
+            width: 100%;
+            max-width: 160px; 
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        .director-info p {
+            margin: 0;
+            font-size: 14px;
+            color: #000099;
+            font-weight: bold;
+        }
+        </style>
+</head>
+<body>
+        <div class="container">
+        <header class="header-banner">
+            <img src="images.jpg" alt="แบนเนอร์โรงเรียนนวมินทราขูทิศ มัชฌิม">
+        </header>
+        <div class="wrapper">
+            
+        <aside class="sidebar-left">
+        <div class="title">เกี่ยวกับโรงเรียน</div>
+        <ul>
+            <li><a href="#">หน้าหลัก</a></li>
+            <li><a href="#">ข้อมูลทั่วไป</a></li>
+            <li><a href="#">ประวัติโรงเรียน</a></li>
+            <li><a href="#">เพลงประจำโรงเรียน</a></li>
+            <li><a href="#">เพลงประจำโรงเรียน</a></li>
+        </ul>
+            </aside>
+            <main class="main-content">
+            <div class="title-bar">โรงเรียนนวมินทราชูทิศ มัชฌิม</div>
+                
+            <div class="online-box">
+                <h2>การเรียนการสอนออนไลน์ (Online)</h2>
+                    <!-- 💡 จุดที่ต้องแก้: เปลี่ยนที่อยู่ลิงก์รูปนี้เป็นรูปประกอบการเรียนออนไลน์ของคุณ -->
+                 <img class="online-image-placeholder" src="https://picsum.photos" alt="เรียนออนไลน์">
+                </div>
+            </main>
+     <aside class="sidebar-right">
+        <div class="title">ผู้จัดทำ</div>
+        <div class="director-info">
+        <img src="myfhoto.jpg" alt="รูปตัวผม">
+         <p>นายปริพัฒน์ จันทร์หอม</p>
+                </div>
+            </aside>
+
+        </div>
+
+    </div>
+</body>
+</html>
